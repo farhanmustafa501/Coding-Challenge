@@ -1,0 +1,37 @@
+@import '../../styles/variables.scss';
+
+.main {
+    // height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-light-grey;
+
+    .container {
+        width: 960px;
+        background-color: $color-white;
+        padding: 0 50px 0 50px;
+
+        .heading {
+            padding-top: 50px;
+            text-align: center;
+        }
+
+        .itemWrapper {
+            margin: 50px 0 50px 0;
+
+            .lable {
+                width: 250px;
+            }
+        }
+    }
+}
+
+.message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 50px;
+}
